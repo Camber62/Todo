@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    height: 30px;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-around;
+}
+.todo{
+    min-height: 70vh
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-left: 1px solid white;
+}
+
+
+table {
+    margin: auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 70%;
+
+}
+h1{
+    width: 70%;
+    margin: auto;
+}
+th {
+    background: bisque;
+    /*width: 50%;*/
+}
+
+td {
+    border: none;
+    margin: 0 5px 0 5px;
+
+}
+
+tr {
+    text-align: center;
+    border-radius: 15px;
+    /*width: 20vw;*/
+}
+
+tr:nth-child(2n) {
+    background: #dadde3;
+}
+
+
+.none {
+    display: none;
+}
+
+.modal {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    margin: 0 10px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+
+.title_victors_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    justify-content: space-evenly;
+}
+
+.decoration{
+    text-decoration: line-through;
+}
+
+.modalFormEditVisition{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #5d5d5db0;
+}
