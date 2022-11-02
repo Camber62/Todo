@@ -25,7 +25,7 @@ const Navigation = () => {
 
                 <Routes>
                     <Route path="/"
-                           element={<Todo todoEdit={todoEdit} setToEdit={setTodoEdit} SetToDoList={SetToDoList}
+                           element={<Todo todoEdit={todoEdit} setTodoEdit={setTodoEdit} SetToDoList={SetToDoList}
                                           toDoList={toDoList}/>}/>
                     <Route path="/Complete" element={<Complete toDoList={toDoList} SetToDoList={SetToDoList}/>}/>
                     <Route path="/ActiveTodo" element={<ActiveTodo toDoList={toDoList} SetToDoList={SetToDoList}/>}/>

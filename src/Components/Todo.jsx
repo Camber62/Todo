@@ -13,7 +13,8 @@ const Todo = (props) => {
     const [value, setValue] = useState("");
     const clickEdit = (element) => {
         setButtonElement(Number(element.target.id))
-        todoEdit(true)
+        setTodoEdit(true)
+        console.log(buttonElement)
 
     }
 

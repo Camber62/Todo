@@ -13,13 +13,14 @@ const EditTodo = (props) => {
     for (let i = 0; i < toDoList.length; i++) {
         if (todoEdit === true && i === buttonElement) {
             inputValueTodo.current.value = toDoList[i].todo
+            console.log(inputValueTodo)
         }
     }
 
 
 
     const EditTodoBtn = () => {
-        const newBooks = toDoList.map((post, index) => {
+        const newTodo = toDoList.map((post, index) => {
             if (index !== buttonElement) {
                 return post
             }
@@ -36,7 +37,7 @@ const EditTodo = (props) => {
         } else
             setError(true)
 
-        SetToDoList(newBooks)
+        SetToDoList(newTodo)
     }
 
 
